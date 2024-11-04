@@ -1,0 +1,111 @@
+xrun(64): 21.09-s007: (c) Copyright 1995-2022 Cadence Design Systems, Inc.
+TOOL:	xrun(64)	21.09-s007: Started on Nov 04, 2024 at 16:44:43 UTC
+irun
+	-f list.f
+		sha256.sv
+		sha256TB.sv
+xrun: *W,NCEXDEP: Executable (irun) is deprecated. Use (xrun) instead.
+SOFTINCLUDE $XPEDION/aa/cds.lib
+|
+xrun: *W,DLCVAR (/apps/cadence/IC/6.18.350/tools/dfII/local/cds.lib,10): cds.lib Invalid environment variable ''.
+SOFTINCLUDE $EMXHOME/emxinterface/cds.lib
+|
+xrun: *W,DLCVAR (/apps/cadence/IC/6.18.350/tools/dfII/local/cds.lib,12): cds.lib Invalid environment variable ''.
+SOFTINCLUDE $XPEDION/aa/cds.lib
+|
+xrun: *W,DLCVAR (/apps/cadence/IC/6.18.350/tools/dfII/local/cds.lib,10): cds.lib Invalid environment variable ''.
+SOFTINCLUDE $EMXHOME/emxinterface/cds.lib
+|
+xrun: *W,DLCVAR (/apps/cadence/IC/6.18.350/tools/dfII/local/cds.lib,12): cds.lib Invalid environment variable ''.
+SOFTINCLUDE $XPEDION/aa/cds.lib
+|
+xrun: *W,DLCVAR (/apps/cadence/IC/6.18.350/tools/dfII/local/cds.lib,10): cds.lib Invalid environment variable ''.
+SOFTINCLUDE $EMXHOME/emxinterface/cds.lib
+|
+xrun: *W,DLCVAR (/apps/cadence/IC/6.18.350/tools/dfII/local/cds.lib,12): cds.lib Invalid environment variable ''.
+SOFTINCLUDE $XPEDION/aa/cds.lib
+|
+xrun: *W,DLCVAR (/apps/cadence/IC/6.18.350/tools/dfII/local/cds.lib,10): cds.lib Invalid environment variable ''.
+SOFTINCLUDE $EMXHOME/emxinterface/cds.lib
+|
+xrun: *W,DLCVAR (/apps/cadence/IC/6.18.350/tools/dfII/local/cds.lib,12): cds.lib Invalid environment variable ''.
+SOFTINCLUDE $XPEDION/aa/cds.lib
+|
+xrun: *W,DLCVAR (/apps/cadence/IC/6.18.350/tools/dfII/local/cds.lib,10): cds.lib Invalid environment variable ''.
+SOFTINCLUDE $EMXHOME/emxinterface/cds.lib
+|
+xrun: *W,DLCVAR (/apps/cadence/IC/6.18.350/tools/dfII/local/cds.lib,12): cds.lib Invalid environment variable ''.
+SOFTINCLUDE $XPEDION/aa/cds.lib
+|
+xmvlog: *W,DLCVAR (/apps/cadence/IC/6.18.350/tools/dfII/local/cds.lib,10): cds.lib Invalid environment variable ''.
+SOFTINCLUDE $EMXHOME/emxinterface/cds.lib
+|
+xmvlog: *W,DLCVAR (/apps/cadence/IC/6.18.350/tools/dfII/local/cds.lib,12): cds.lib Invalid environment variable ''.
+file: sha256.sv
+	module worklib.rotate_right:sv
+		errors: 0, warnings: 0
+file: sha256TB.sv
+	module worklib.testbench:sv
+		errors: 0, warnings: 0
+	Total errors/warnings found outside modules and primitives:
+		errors: 0, warnings: 2
+SOFTINCLUDE $XPEDION/aa/cds.lib
+|
+xrun: *W,DLCVAR (/apps/cadence/IC/6.18.350/tools/dfII/local/cds.lib,10): cds.lib Invalid environment variable ''.
+SOFTINCLUDE $EMXHOME/emxinterface/cds.lib
+|
+xrun: *W,DLCVAR (/apps/cadence/IC/6.18.350/tools/dfII/local/cds.lib,12): cds.lib Invalid environment variable ''.
+SOFTINCLUDE $XPEDION/aa/cds.lib
+|
+xrun: *W,DLCVAR (/apps/cadence/IC/6.18.350/tools/dfII/local/cds.lib,10): cds.lib Invalid environment variable ''.
+SOFTINCLUDE $EMXHOME/emxinterface/cds.lib
+|
+xrun: *W,DLCVAR (/apps/cadence/IC/6.18.350/tools/dfII/local/cds.lib,12): cds.lib Invalid environment variable ''.
+SOFTINCLUDE $XPEDION/aa/cds.lib
+|
+xmelab: *W,DLCVAR (/apps/cadence/IC/6.18.350/tools/dfII/local/cds.lib,10): cds.lib Invalid environment variable ''.
+SOFTINCLUDE $EMXHOME/emxinterface/cds.lib
+|
+xmelab: *W,DLCVAR (/apps/cadence/IC/6.18.350/tools/dfII/local/cds.lib,12): cds.lib Invalid environment variable ''.
+		Caching library 'worklib' ....... Done
+	Elaborating the design hierarchy:
+	Top level design units:
+		testbench
+xmelab: *W,DSEMEL: This SystemVerilog design will be simulated as per IEEE 1800-2009 SystemVerilog simulation semantics. Use -disable_sem2009 option for turning off SV 2009 simulation semantics.
+	Building instance overlay tables: .................... Done
+	Generating native compiled code:
+SOFTINCLUDE $XPEDION/aa/cds.lib
+|
+xmvlog_cg: *W,DLCVAR (/apps/cadence/IC/6.18.350/tools/dfII/local/cds.lib,10): cds.lib Invalid environment variable ''.
+SOFTINCLUDE $EMXHOME/emxinterface/cds.lib
+|
+xmvlog_cg: *W,DLCVAR (/apps/cadence/IC/6.18.350/tools/dfII/local/cds.lib,12): cds.lib Invalid environment variable ''.
+		worklib.rotate_right:sv <0x75e4f345>
+			streams:   1, words:   220
+		worklib.testbench:sv <0x54875c44>
+			streams:   2, words:  1324
+	Building instance specific data structures.
+	Loading native compiled code:     .................... Done
+	Design hierarchy summary:
+		             Instances  Unique
+		Modules:             2       2
+		Registers:           1       1
+		Vectored wires:      2       -
+		Initial blocks:      1       1
+		Cont. assignments:   1       1
+		Pseudo assignments:  1       1
+	Writing initial simulation snapshot: worklib.testbench:sv
+SOFTINCLUDE $XPEDION/aa/cds.lib
+|
+xmsim: *W,DLCVAR (/apps/cadence/IC/6.18.350/tools/dfII/local/cds.lib,10): cds.lib Invalid environment variable ''.
+SOFTINCLUDE $EMXHOME/emxinterface/cds.lib
+|
+xmsim: *W,DLCVAR (/apps/cadence/IC/6.18.350/tools/dfII/local/cds.lib,12): cds.lib Invalid environment variable ''.
+Loading snapshot worklib.testbench:sv .................... Done
+xmsim: *W,DSEM2009: This SystemVerilog design is simulated as per IEEE 1800-2009 SystemVerilog simulation semantics. Use -disable_sem2009 option for turning off SV 2009 simulation semantics.
+xcelium> source /apps/cadence/XCELIUM/21.09.007/tools/xcelium/files/xmsimrc
+xcelium> run
+Input: 1234, Rotated Output: 4123
+xmsim: *W,RNQUIE: Simulation is complete.
+xcelium> exit
+TOOL:	xrun(64)	21.09-s007: Exiting on Nov 04, 2024 at 16:44:46 UTC  (total: 00:00:03)
