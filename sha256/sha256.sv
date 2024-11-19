@@ -103,3 +103,4 @@ module sigma1 #(parameter WIDTH = 32) (
     assign out = rr1_out ^ rr2_out ^ (in >> 10);
 endmodule
 
+ 
